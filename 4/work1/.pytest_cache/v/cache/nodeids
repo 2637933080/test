@@ -1,0 +1,8 @@
+[
+  "tests/test_library.py::test_borrow_book_success",
+  "tests/test_library.py::test_borrow_book_user_missing",
+  "tests/test_library.py::test_borrow_book_book_missing",
+  "tests/test_library.py::test_borrow_book_no_stock",
+  "tests/test_library.py::test_borrow_book_invalid_user_structure",
+  "tests/test_library.py::test_borrow_book_missing_inventory_information"
+]

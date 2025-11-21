@@ -1,0 +1,23 @@
+### 创建订单
+POST http://localhost:8000/orders/
+Content-Type: application/json
+
+{
+  "item_id": "item1",
+  "quantity": 2
+}
+
+### 根据ID获取订单
+GET http://localhost:8000/orders/order_1
+
+### 支付订单
+POST http://localhost:8000/orders/order_1/pay
+Content-Type: application/json
+
+{
+  "order_id": "order_1",
+  "amount": 100.0
+}
+
+### 检查库存
+GET http://localhost:8000/inventory/item1

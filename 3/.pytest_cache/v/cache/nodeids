@@ -1,0 +1,5 @@
+[
+  "test_packaging_version.py::test_version_normalization_equates_patch_release",
+  "test_packaging_version.py::test_pre_release_sorted_before_final_release",
+  "test_packaging_version.py::test_invalid_version_raises_invalid_version"
+]

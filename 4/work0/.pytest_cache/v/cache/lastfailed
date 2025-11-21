@@ -1,0 +1,7 @@
+{
+  "test_db_disconnect.py::test_payment_request_with_db_disconnect": true,
+  "test_reliability.py::test_reliability": true,
+  "test_resilience.py::test_db_failure_recovery": true,
+  "test_smoke.py::test_database_recovery": true,
+  "test_smoke.py::test_service_functionality": true
+}
